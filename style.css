@@ -23,7 +23,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     flex: 1;
 }
 
@@ -66,4 +66,16 @@ footer{
 
 .player-skills > div:hover {
     background-color: #F9DBBB;
+}
+
+@media (width <= 990px) {
+    html {
+        font-size: 0.7rem;
+    }
+}
+
+@media (width <= 493px) {
+    html {
+        font-size: 0.4rem;
+    }
 }
